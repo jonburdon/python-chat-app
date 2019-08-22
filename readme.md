@@ -31,3 +31,15 @@ This is a chat app written in Flask.
 * Add message route to app.py
 * Check this works by browsing to: http://127.0.0.1:5000/fred/mymessage
 * Should display **fred: mymessage**
+
+### Storing messages in lists
+* Create messages list
+* Create add_messages function
+* Update line 19 to return data from the list
+* Test by checking as before
+* import redirect from Flask library
+* call add_messages function in send_message function
+* Update user function to display messages
+* Check **http://127.0.0.1:5000/kate/hello everyone** redirects to **http://127.0.0.1:5000/kate**, and displays **Welcome, kate - ['kate: hello everyone']**
+
+### Displaying messages in more friendly format
