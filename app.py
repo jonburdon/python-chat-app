@@ -1,8 +1,9 @@
 import os
 from datetime import datetime
-from flask import Flask, redirect, render_template
+from flask import Flask, redirect, render_template, request, session
 
 app = Flask(__name__)
+app.secret_key = "randomstring123321"
 messages = []
 
 def add_messages(username, message):
@@ -14,9 +15,17 @@ def get_all_messages():
     """Get all messages and separate using a <br>"""
     return "<br>".join(messages)
 
-@app.route('/')
+@app.route('/', methods= ["GET", "POST"])
 def index():
     """Main page with instructions"""
+    """Get username from form"""
+    if request.method == "POST":
+        session["username"] = request.form["username"]
+
+    """If username exists, redirect to username route"""
+    if "username" in session:
+        return redirect(session["username"])
+
     return render_template("index.html")
 
 """<anything here> will be treated as a variable"""

@@ -60,4 +60,13 @@ This is a chat app written in Flask.
 * Test
 
 ### Creating users
+* Use Flask to create session cookie and store username
+* Import request and session module from Flask
+* Create secret key (use string, but for production this would be an environment variable)
+* Create form in index.html
+* Allow GET and POST in index route
+* Use if loop to asign input from form to username variable and store as session variable as session cookie
 
+## Future Plans
+* Use css to add 'bubble' theme for each new message
+* Vary the above to alternate colour of each new chat 'bubble'
