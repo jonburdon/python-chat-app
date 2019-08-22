@@ -22,3 +22,12 @@ This is a chat app written in Flask.
 * In Terminal **python3 -m flask run** to run the app and serve
 
 * **pip3 freeze --local > requirements.txt** 
+
+### Adding Views
+* Add username route using variable. Note <> indicates variables.
+* Check this works by browsing to http://127.0.0.1:5000/myname
+* Should display **Hi myname**
+
+* Add message route to app.py
+* Check this works by browsing to: http://127.0.0.1:5000/fred/mymessage
+* Should display **fred: mymessage**
