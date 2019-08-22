@@ -10,6 +10,8 @@ This is a chat app written in Flask.
 
 ## Approach
 
+## Basic Setup
+
 ### Setup using VS Code on a Mac
 * **sudo pip3 install Flask** to install Flask
 * **python3 -m venv env** to install virtual environment in that folder
@@ -43,3 +45,15 @@ This is a chat app written in Flask.
 * Check **http://127.0.0.1:5000/kate/hello everyone** redirects to **http://127.0.0.1:5000/kate**, and displays **Welcome, kate - ['kate: hello everyone']**
 
 ### Displaying messages in more friendly format
+* Create get_all_messages function and call it from user function. This will use <br> tags to separate each new message.
+
+## Expanding functionality
+
+### Adding timestamps
+* In app.py use **from datetime import datetime** to import datetime
+* Use strf time method in line 10 to convert date time obeject into string - use brackets to provide format
+* Test
+
+### Creating index.html
+
+### Creating users
