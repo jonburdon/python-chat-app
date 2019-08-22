@@ -55,5 +55,9 @@ This is a chat app written in Flask.
 * Test
 
 ### Creating index.html
+* import render_template from Flask
+* Edit index view to return render_template("index.html")
+* Test
 
 ### Creating users
+
