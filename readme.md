@@ -5,6 +5,8 @@ Two different web browsers can be used to access the app, and then two users can
 ## Credits: App written following Code Institute tutorial
 ### This documentation is the developers personal log of the learning process.
 
+### View Project live here: http://flask-chat-app-learning.herokuapp.com/
+
 # Project Aims
 * Create and run flask project
 * Take data from URLs and Store
