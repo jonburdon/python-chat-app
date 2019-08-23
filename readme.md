@@ -82,6 +82,13 @@ This is a chat app written in Flask.
 * Add if function to username route to receive form input and assign variables
 * Refactor javascript to stop it refreshing whilst form is being completed.
 
+### Tidying up
+* Rename add_messages function to add_message
+* Remove messages_dict variable - not needed
+* Import url_for and use on line 24, 36. If url changes, redirects will update.
+* Change url for chat on line 29
+* Remove username/message route and view
+
 ## Future Plans
 * Use css to add 'bubble' theme for each new message
 * Vary the above to alternate colour of each new chat 'bubble'
