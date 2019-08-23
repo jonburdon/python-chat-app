@@ -103,6 +103,7 @@ Two different web browsers can be used to access the app, and then two users can
 ### Prepare for production
 * Set secret key using environment variable.
 * Create Procfile with **echo web: python app.py redirect > Procfile**
+* Create secret key in config vars
 
 ## Future Plans
 * Use css to add 'bubble' theme for each new message
