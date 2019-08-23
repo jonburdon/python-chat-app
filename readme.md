@@ -100,6 +100,10 @@ Two different web browsers can be used to access the app, and then two users can
 * Change url for chat on line 29
 * Remove username/message route and view
 
+### Prepare for production
+* Set secret key using environment variable.
+* Create Procfile with **echo web: python app.py redirect > Procfile**
+
 ## Future Plans
 * Use css to add 'bubble' theme for each new message
 * Vary the above to alternate colour of each new chat 'bubble'
