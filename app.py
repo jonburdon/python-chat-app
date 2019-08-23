@@ -40,6 +40,7 @@ def user(username):
     return render_template("chat.html", username = username, chat_messages = messages)
 
 
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
