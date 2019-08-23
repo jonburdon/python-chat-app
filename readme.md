@@ -1,5 +1,9 @@
 # Flask Chat Room App
 This is a chat app written in Flask.
+Two different web browsers can be used to access the app, and then two users can chat with each other.
+
+## Credits: App written following Code Institute tutorial
+### This documentation is the developers personal log of the learning process.
 
 # Project Aims
 * Create and run flask project
@@ -7,6 +11,13 @@ This is a chat app written in Flask.
 * Present stored data back to user
 * Create URLs based around user names
 * When user Adds a message, this will be displayed along with a timestamp
+
+## Technologies
+* HTML
+* Python
+* Flask
+* Jinja
+* Git
 
 ## Approach
 
