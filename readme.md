@@ -65,7 +65,22 @@ This is a chat app written in Flask.
 * Create secret key (use string, but for production this would be an environment variable)
 * Create form in index.html
 * Allow GET and POST in index route
-* Use if loop to asign input from form to username variable and store as session variable as session cookie
+* Use if loop to assign input from form to username variable and store as session variable as session cookie
+
+### Storing in a dictionary
+* Refactor add_messages function to store in dictionary so that different messages can easily be accessed.
+* Removed get_all_messages function - no longer needed
+
+### Create template for chats to display dictionary data
+* Create chat.html and use render_template to load it.
+* Use Jinja to display data from message dictionary.
+* Add Javascript to auto reload
+
+### Create a message textbox for user input
+* Add form to chat.html for message input.
+* Update username route in app.py to permit GET and POST methods
+* Add if function to username route to receive form input and assign variables
+* Refactor javascript to stop it refreshing whilst form is being completed.
 
 ## Future Plans
 * Use css to add 'bubble' theme for each new message
